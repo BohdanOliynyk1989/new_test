@@ -1,6 +1,6 @@
 name: Docker image build and publish
 on:
-  workflow_dispatch:
+  push:
     inputs:
       path_to_dockerfile:
         description: Path to the dockerfile (default = 'Dockerfile')
